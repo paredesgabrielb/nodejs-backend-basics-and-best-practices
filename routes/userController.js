@@ -2,6 +2,7 @@ const express = require('express');
 const router  = express.Router();
 const findById = require('../services/userServices');
 
+
 // GET: /users
 router.get("/users",(req,res) =>{
     res.send('Users ');
